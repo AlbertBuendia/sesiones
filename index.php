@@ -38,11 +38,11 @@ div {
 
 <div>
   <form action="./services/login.proc.php" method="POST">
-    <label for="email">Email</label>
-    <input type="text" id="email" name="email" placeholder="Your email">
+    <label for="email_user">Email</label>
+    <input type="text" id="email_user" name="email_user" placeholder="Your email">
 
-    <label for="psswd">Password</label>
-    <input type="password" id="psswd" name="psswd" placeholder="Your password">
+    <label for="passwd">Password</label>
+    <input type="password" id="passwd" name="passwd" placeholder="Your password">
   
     <input type="submit" value="Submit">
   </form>
